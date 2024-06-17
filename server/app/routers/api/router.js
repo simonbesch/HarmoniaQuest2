@@ -18,6 +18,10 @@ const caca = require("./actions/router");
 
 router.use("/programs", caca);
 
+const categoriesRouter = require("./categories/router");
+
+router.use("/categories", categoriesRouter);
+
 /* ************************************************************************* */
 
 module.exports = router;

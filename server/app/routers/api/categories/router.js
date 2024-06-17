@@ -2,7 +2,7 @@ const express = require("express");
 
 const router = express.Router();
 
-const { browse, read } = require("../../../controllers/programAction");
+const { browse, read } = require("../../../controllers/categoryActions");
 
 router.get("/:id", read);
 
